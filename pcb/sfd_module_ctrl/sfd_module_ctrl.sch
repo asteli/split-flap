@@ -1,0 +1,148 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5DE053AE
+P 2350 1700
+F 0 "C?" H 2465 1746 50  0000 L CNN
+F 1 "C" H 2465 1655 50  0000 L CNN
+F 2 "" H 2388 1550 50  0001 C CNN
+F 3 "~" H 2350 1700 50  0001 C CNN
+	1    2350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DE057DD
+P 2950 1700
+F 0 "R?" H 3020 1746 50  0000 L CNN
+F 1 "R" H 3020 1655 50  0000 L CNN
+F 2 "" V 2880 1700 50  0001 C CNN
+F 3 "~" H 2950 1700 50  0001 C CNN
+	1    2950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5DE0C9B9
+P 8850 1150
+F 0 "FID?" H 8935 1196 50  0000 L CNN
+F 1 "Fiducial" H 8935 1105 50  0000 L CNN
+F 2 "" H 8850 1150 50  0001 C CNN
+F 3 "~" H 8850 1150 50  0001 C CNN
+	1    8850 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5DE0CD1B
+P 9450 1050
+F 0 "FID?" H 9535 1096 50  0000 L CNN
+F 1 "Fiducial" H 9535 1005 50  0000 L CNN
+F 2 "" H 9450 1050 50  0001 C CNN
+F 3 "~" H 9450 1050 50  0001 C CNN
+	1    9450 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5DE0D14B
+P 9350 1450
+F 0 "FID?" H 9435 1496 50  0000 L CNN
+F 1 "Fiducial" H 9435 1405 50  0000 L CNN
+F 2 "" H 9350 1450 50  0001 C CNN
+F 3 "~" H 9350 1450 50  0001 C CNN
+	1    9350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DE0D8F4
+P 6100 2550
+F 0 "D?" H 6093 2766 50  0000 C CNN
+F 1 "LED" H 6093 2675 50  0000 C CNN
+F 2 "" H 6100 2550 50  0001 C CNN
+F 3 "~" H 6100 2550 50  0001 C CNN
+	1    6100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DE0DCCE
+P 6050 2850
+F 0 "D?" H 6043 3066 50  0000 C CNN
+F 1 "LED" H 6043 2975 50  0000 C CNN
+F 2 "" H 6050 2850 50  0001 C CNN
+F 3 "~" H 6050 2850 50  0001 C CNN
+	1    6050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DE0E22A
+P 6050 3250
+F 0 "D?" H 6043 3466 50  0000 C CNN
+F 1 "LED" H 6043 3375 50  0000 C CNN
+F 2 "" H 6050 3250 50  0001 C CNN
+F 3 "~" H 6050 3250 50  0001 C CNN
+	1    6050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x08 SW?
+U 1 1 5DE0EF70
+P 6400 4500
+F 0 "SW?" H 6400 5167 50  0000 C CNN
+F 1 "SW_DIP_x08" H 6400 5076 50  0000 C CNN
+F 2 "" H 6400 4500 50  0001 C CNN
+F 3 "~" H 6400 4500 50  0001 C CNN
+	1    6400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_ST_STM32F0:STM32F030C8Tx U?
+U 1 1 5DE16763
+P 4850 4200
+F 0 "U?" H 4850 2511 50  0000 C CNN
+F 1 "STM32F030C8Tx" H 4850 2420 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 4350 2700 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf" H 4850 4200 50  0001 C CNN
+	1    4850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Dual SW?
+U 1 1 5DE1A9B7
+P 7950 2450
+F 0 "SW?" H 7950 2735 50  0000 C CNN
+F 1 "SW_Push_Dual" H 7950 2644 50  0000 C CNN
+F 2 "" H 7950 2650 50  0001 C CNN
+F 3 "~" H 7950 2650 50  0001 C CNN
+	1    7950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Dual SW?
+U 1 1 5DE1B5DE
+P 7950 3150
+F 0 "SW?" H 7950 3435 50  0000 C CNN
+F 1 "SW_Push_Dual" H 7950 3344 50  0000 C CNN
+F 2 "" H 7950 3350 50  0001 C CNN
+F 3 "~" H 7950 3350 50  0001 C CNN
+	1    7950 3150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

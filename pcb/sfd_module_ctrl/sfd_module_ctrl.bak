@@ -1,0 +1,126 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5DE053AE
+P 2350 1700
+F 0 "C?" H 2465 1746 50  0000 L CNN
+F 1 "C" H 2465 1655 50  0000 L CNN
+F 2 "" H 2388 1550 50  0001 C CNN
+F 3 "~" H 2350 1700 50  0001 C CNN
+	1    2350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DE057DD
+P 2950 1700
+F 0 "R?" H 3020 1746 50  0000 L CNN
+F 1 "R" H 3020 1655 50  0000 L CNN
+F 2 "" V 2880 1700 50  0001 C CNN
+F 3 "~" H 2950 1700 50  0001 C CNN
+	1    2950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_ST_STM32F0:STM32F030F4Px U?
+U 1 1 5DE05FA8
+P 5000 3250
+F 0 "U?" H 5228 3296 50  0000 L CNN
+F 1 "STM32F030F4Px" H 5228 3205 50  0000 L CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4600 2550 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf" H 5000 3250 50  0001 C CNN
+	1    5000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5DE0C9B9
+P 8850 1150
+F 0 "FID?" H 8935 1196 50  0000 L CNN
+F 1 "Fiducial" H 8935 1105 50  0000 L CNN
+F 2 "" H 8850 1150 50  0001 C CNN
+F 3 "~" H 8850 1150 50  0001 C CNN
+	1    8850 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5DE0CD1B
+P 9450 1050
+F 0 "FID?" H 9535 1096 50  0000 L CNN
+F 1 "Fiducial" H 9535 1005 50  0000 L CNN
+F 2 "" H 9450 1050 50  0001 C CNN
+F 3 "~" H 9450 1050 50  0001 C CNN
+	1    9450 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5DE0D14B
+P 9350 1450
+F 0 "FID?" H 9435 1496 50  0000 L CNN
+F 1 "Fiducial" H 9435 1405 50  0000 L CNN
+F 2 "" H 9350 1450 50  0001 C CNN
+F 3 "~" H 9350 1450 50  0001 C CNN
+	1    9350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DE0D8F4
+P 7650 2050
+F 0 "D?" H 7643 2266 50  0000 C CNN
+F 1 "LED" H 7643 2175 50  0000 C CNN
+F 2 "" H 7650 2050 50  0001 C CNN
+F 3 "~" H 7650 2050 50  0001 C CNN
+	1    7650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DE0DCCE
+P 7600 2350
+F 0 "D?" H 7593 2566 50  0000 C CNN
+F 1 "LED" H 7593 2475 50  0000 C CNN
+F 2 "" H 7600 2350 50  0001 C CNN
+F 3 "~" H 7600 2350 50  0001 C CNN
+	1    7600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DE0E22A
+P 7600 2750
+F 0 "D?" H 7593 2966 50  0000 C CNN
+F 1 "LED" H 7593 2875 50  0000 C CNN
+F 2 "" H 7600 2750 50  0001 C CNN
+F 3 "~" H 7600 2750 50  0001 C CNN
+	1    7600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x08 SW?
+U 1 1 5DE0EF70
+P 8800 3400
+F 0 "SW?" H 8800 4067 50  0000 C CNN
+F 1 "SW_DIP_x08" H 8800 3976 50  0000 C CNN
+F 2 "" H 8800 3400 50  0001 C CNN
+F 3 "~" H 8800 3400 50  0001 C CNN
+	1    8800 3400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
