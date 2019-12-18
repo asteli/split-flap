@@ -1,6 +1,8 @@
 # split-flap
 A mechanical split-flap display in the style of the Solari boards, designed to be modular, manufacturable, and low-cost.
 
+![An assembled module, sans PCB, off of DIN rail.](https://github.com/asteli/split-flap/raw/master/character_module_nema17/process/Module_20191217.jpg)
+
 ![A 10-module wide section of a split-flap display](https://github.com/asteli/split-flap/raw/master/character_module_nema17/process/10gang_dinrailmounted_july30.PNG)
 
 What's happened so far:
